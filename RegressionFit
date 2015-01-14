@@ -1,3 +1,4 @@
+# having 2 for loops because there's no data for December 2014, discuss it differently.
 s <- read.csv(file.choose(),header=T)
 fo <- rep(0,12)
 for(i in 3:12){
